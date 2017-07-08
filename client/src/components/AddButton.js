@@ -4,12 +4,18 @@ import axios from 'axios';
 
 class AddButton extends Component {
 
+handleClick = () => {
+    
+}
 
   render() {
     return (
-      <div className="add">
-       <i className="fa fa-plus-circle fa-4x" aria-hidden="true"></i>
-      </div>
+        <div className="add">
+            <a className="btn-floating btn-large waves-effect waves-light teal" 
+               onClick={this.handleClick}>
+                    <i className="material-icons">add</i>
+            </a>
+        </div>
     );
   }
 }

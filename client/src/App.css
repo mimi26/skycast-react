@@ -1,13 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #37484F;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
 
 .container {
-  background: #37484F;
+  display: flex;
+}
+
+.snow-contain {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  font-family: 'Poppins', sans-serif;
 }
 
 .snowman {
@@ -23,16 +40,8 @@
   margin: 8px;
 }
 
-/*.add {
-  height: 100px;
-  width: 100px;
-  background: white;
-}*/
-
-.fa {
-  color: #26A599;
+.btn-floating {
   position: absolute;
-  right: 47px;
-  bottom: 25px;
-  
+  right: 70px;
+  bottom: 40px;
 }
