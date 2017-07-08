@@ -11,10 +11,28 @@
 }
 
 .snowman {
-  height: 40vh;
-  width: 30vw;
+  height: 200px;
+  width: 225px;
 }
 
 .melt, .weather-text {
   color: #7FC9C2;
+}
+
+.container, .snowman, .melt, .weather-text {
+  margin: 8px;
+}
+
+/*.add {
+  height: 100px;
+  width: 100px;
+  background: white;
+}*/
+
+.fa {
+  color: #26A599;
+  position: absolute;
+  right: 47px;
+  bottom: 25px;
+  
 }
