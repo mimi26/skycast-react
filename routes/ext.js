@@ -3,7 +3,7 @@ var router = express.Router();
 const apiCall = require('../api-helpers.js');
 
 /* GET home page. */
-router.get('/', apiCall.geocodeCall, function(req, res, next) {
+router.get('/api', apiCall.geocodeCall, function(req, res, next) {
   console.log('sending');
   console.log(res.locals);
   res.send({ 

@@ -45,3 +45,19 @@ body {
   right: 70px;
   bottom: 40px;
 }
+
+.address-input {
+  margin-right: 400px;
+  height: 400px;
+  width: 400px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  margin-right: 5px;
+  margin-top: 10px;
+}

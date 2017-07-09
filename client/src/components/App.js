@@ -3,20 +3,9 @@ import snowman from '../../src/images/snowman.png';
 import '../../src/App.css';
 import axios from 'axios';
 import AddButton from './AddButton';
+import InputForm from './InputForm';
 
 class App extends Component {
-
-// geocodeCall = () => {
-//   const address = 
-//   axios.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${process.env.MAP_KEY}`)
-//   .then((info) => {
-//      console.log(info.data.results[0].geometry.location.lat);
-//     console.log(info.data.results[0].geometry.location.lng);
-//     console.log(info.data.results[0].formatted_address);
-//   }).catch((err) => {
-//     console.log(err);
-//   });
-// }
 
   render() {
     return (
@@ -27,6 +16,7 @@ class App extends Component {
           <div className="weather-text">Start getting some weather.</div>
         </div>
         <AddButton/>
+        <InputForm/>
       </div>
     );
   }
